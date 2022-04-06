@@ -10,14 +10,18 @@ struct SettingsView: View {
     
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading) {
-                HStack {
+
+             VStack(alignment: .leading) {
+                /*
+                 HStack {
                     Text("Always need authentication to unlock")
                     Toggle(isOn: $needAuthToUnlock) {
                     }
                     .labelsHidden()
                 }
-                
+                 */
+
+       
                 VStack(alignment: .trailing, spacing: 0) {
                     HStack {
                         Text("Login speed")

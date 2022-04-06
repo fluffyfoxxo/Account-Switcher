@@ -1,8 +1,8 @@
 import SwiftUI
 import LocalAuthentication
 import Defaults
-
 struct LockView: View {
+    
     @Binding var isUnlocked: Bool
     @Default(.needAuthToUnlock) var needAuthToUnlock
     
@@ -18,15 +18,17 @@ struct LockView: View {
                 }
             } label: {
                 HStack {
-                    Image(systemName: "touchid")
+/*                    Image(systemName: "touchid")
                         .foregroundColor(.white)
                         .font(.system(size: 25))
-                    Text("UNLOCK")
+ */
+                    Text("")
+//                    Text("UNLOCK")
                         .foregroundColor(.white)
                         .font(.system(size: 20))
                 }
                 .padding(8)
-                .background(Color.blue)
+//                .background(Color.blue)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
             }
             .buttonStyle(BorderlessButtonStyle())
@@ -68,3 +70,5 @@ struct LockView_Previews: PreviewProvider {
         LockView(isUnlocked: .constant(false))
     }
 }
+
+

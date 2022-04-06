@@ -26,6 +26,7 @@ struct PasswordListView: View {
         }
         .toolbar {
             ToolbarItemGroup {
+/*
                 Button {
                     Tools.shared.importPasswordsFromCsv()
                 } label: {
@@ -46,7 +47,7 @@ struct PasswordListView: View {
                     Image(systemName: "lock.fill")
                         .font(.system(size: 15))
                 }
-                
+                */
                 Button {
                     self.showAddAccountSheet.toggle()
                 } label: {
