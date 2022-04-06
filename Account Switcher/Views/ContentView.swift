@@ -1,16 +1,9 @@
-//
-//  ContentView.swift
-//  Account Switcher
-//
-//  Created by Licardo on 2021/2/16.
-//
-
-import LocalAuthentication
 import SwiftUI
+import LocalAuthentication
 
 struct ContentView: View {
     @State private var isUnlocked = false
-
+    
     var body: some View {
         ZStack {
             if isUnlocked {
@@ -19,14 +12,14 @@ struct ContentView: View {
                         .frame(minWidth: 145, idealWidth: 145, idealHeight: 300, maxHeight: .infinity, alignment: .center)
                         .toolbar {
                             ToolbarItem(placement: .status) {
-                                Button {
+                                Button(action: {
                                     toggleSidebar()
-                                } label: {
+                                }) {
                                     Image(systemName: "sidebar.left")
                                 }
                             }
                         }
-                    // .presentedWindowToolbarStyle(ExpandedWindowToolbarStyle())
+                        //.presentedWindowToolbarStyle(ExpandedWindowToolbarStyle())
                 }
             } else {
                 LockView(isUnlocked: $isUnlocked.animation())
@@ -34,7 +27,7 @@ struct ContentView: View {
             }
         }
     }
-
+    
     private func toggleSidebar() {
         NSApp.keyWindow?.firstResponder?.tryToPerform(#selector(NSSplitViewController.toggleSidebar(_:)), with: nil)
     }

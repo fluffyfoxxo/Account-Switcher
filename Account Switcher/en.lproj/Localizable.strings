@@ -1,12 +1,3 @@
-/* 
-  Localizable.strings
-  Account Switcher
-
-  Created by Licardo on 2021/2/17.
-  
-*/
-
-// lockView
 "UNLOCK" = "UNLOCK";
 "Please authenticate to unlock." = "Please authenticate to unlock.";
 

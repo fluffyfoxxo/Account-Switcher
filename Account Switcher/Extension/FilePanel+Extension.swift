@@ -1,11 +1,3 @@
-//
-//  FilePanel+Extension.swift
-//  AppShot
-//
-//  Created by Licardo on 2020/7/19.
-//  Copyright © 2020 Licardo. All rights reserved.
-//
-
 import Cocoa
 
 extension NSOpenPanel {
@@ -50,3 +42,4 @@ extension NSSavePanel {
         }
     }
 }
+

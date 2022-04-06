@@ -1,25 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "CSV.swift",
-        "repositoryURL": "https://github.com/yaslab/CSV.swift",
-        "state": {
-          "branch": null,
-          "revision": "81d2874c51db364d7e1d71b0d99018a294c87ac1",
-          "version": "2.4.3"
-        }
-      },
-      {
-        "package": "Defaults",
-        "repositoryURL": "https://github.com/sindresorhus/Defaults",
-        "state": {
-          "branch": null,
-          "revision": "55f3302c3ab30a8760f10042d0ebc0a6907f865a",
-          "version": "6.1.0"
-        }
+  "pins" : [
+    {
+      "identity" : "csv.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yaslab/CSV.swift",
+      "state" : {
+        "revision" : "81d2874c51db364d7e1d71b0d99018a294c87ac1",
+        "version" : "2.4.3"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "defaults",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/Defaults",
+      "state" : {
+        "revision" : "229dea452fee8d2205f56a12e5c21dfec00948f2",
+        "version" : "4.2.2"
+      }
+    }
+  ],
+  "version" : 2
 }

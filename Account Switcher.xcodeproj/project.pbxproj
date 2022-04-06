@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		960D899E25DCBDB6003D2506 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 960D89A025DCBDB6003D2506 /* Localizable.strings */; };
 		960D89A925DCD050003D2506 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D89A825DCD050003D2506 /* ButtonStyle.swift */; };
-		960D89C425DCD46A003D2506 /* QuickLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D89C325DCD46A003D2506 /* QuickLoginView.swift */; };
 		96148A5E25DB6F800081F81B /* Account_SwitcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96148A5D25DB6F800081F81B /* Account_SwitcherApp.swift */; };
 		96148A6025DB6F800081F81B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96148A5F25DB6F800081F81B /* ContentView.swift */; };
 		96148A6225DB6F810081F81B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96148A6125DB6F810081F81B /* Assets.xcassets */; };
@@ -34,7 +33,6 @@
 		960D899F25DCBDB6003D2506 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		960D89A225DCBDB8003D2506 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		960D89A825DCD050003D2506 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
-		960D89C325DCD46A003D2506 /* QuickLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLoginView.swift; sourceTree = "<group>"; };
 		96148A5A25DB6F800081F81B /* Account Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Account Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96148A5D25DB6F800081F81B /* Account_SwitcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account_SwitcherApp.swift; sourceTree = "<group>"; };
 		96148A5F25DB6F800081F81B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,21 +132,12 @@
 			isa = PBXGroup;
 			children = (
 				960D89C025DCD43A003D2506 /* PasswordList */,
-				963F6F2C25E4CDDB003641F9 /* QuickLogin */,
 				960D89C225DCD448003D2506 /* Settings */,
 				964270D525DB77AF007E05FC /* LockView.swift */,
 				964270D925DB8B51007E05FC /* SidebarView.swift */,
 				96148A5F25DB6F800081F81B /* ContentView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		963F6F2C25E4CDDB003641F9 /* QuickLogin */ = {
-			isa = PBXGroup;
-			children = (
-				960D89C325DCD46A003D2506 /* QuickLoginView.swift */,
-			);
-			path = QuickLogin;
 			sourceTree = "<group>";
 		};
 		964270E725DB99C2007E05FC /* Extension */ = {
@@ -247,7 +236,6 @@
 				960D89A925DCD050003D2506 /* ButtonStyle.swift in Sources */,
 				96148A6025DB6F800081F81B /* ContentView.swift in Sources */,
 				964270D625DB77AF007E05FC /* LockView.swift in Sources */,
-				960D89C425DCD46A003D2506 /* QuickLoginView.swift in Sources */,
 				96148A8825DB731E0081F81B /* PasswordListView.swift in Sources */,
 				96148A5E25DB6F800081F81B /* Account_SwitcherApp.swift in Sources */,
 				96148A7625DB6FD80081F81B /* EditAccountView.swift in Sources */,
@@ -402,7 +390,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_ASSET_PATHS = "\"Account Switcher/Preview Content\"";
-				DEVELOPMENT_TEAM = YBK29FJ8B6;
+				DEVELOPMENT_TEAM = 2XAAY8Q8N9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Account Switcher/Info.plist";
@@ -412,7 +400,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.licardo.Account-Switcher";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oyqy.Account-Switcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -429,7 +417,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_ASSET_PATHS = "\"Account Switcher/Preview Content\"";
-				DEVELOPMENT_TEAM = YBK29FJ8B6;
+				DEVELOPMENT_TEAM = 2XAAY8Q8N9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Account Switcher/Info.plist";
@@ -439,7 +427,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.licardo.Account-Switcher";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oyqy.Account-Switcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -474,7 +462,7 @@
 			repositoryURL = "https://github.com/sindresorhus/Defaults";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
+				minimumVersion = 4.1.0;
 			};
 		};
 		964270DF25DB966E007E05FC /* XCRemoteSwiftPackageReference "CSV" */ = {

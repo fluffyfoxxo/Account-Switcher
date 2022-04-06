@@ -1,10 +1,3 @@
-//
-//  ButtonStyle.swift
-//  Account Switcher
-//
-//  Created by Licardo on 2021/2/17.
-//
-
 import SwiftUI
 
 struct CustomButtonStyle: ButtonStyle {
